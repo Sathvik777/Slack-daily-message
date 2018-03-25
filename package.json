@@ -1,0 +1,36 @@
+{
+  "name": "slack_message_schedule",
+  "version": "1.0.0",
+  "description": "Node JS application to send timed/ scheduled Slack message",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sathvik777/Slack-daily-message.git"
+  },
+  "author": "Sathvik Katam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sathvik777/Slack-daily-message/issues"
+  },
+  "homepage": "https://github.com/Sathvik777/Slack-daily-message#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "webpack-cli": "^2.0.13",
+    "yarn": "^1.5.1"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.8",
+    "@types/dotenv": "^4.0.2",
+    "@types/express": "^4.11.1",
+    "ts-loader": "^4.1.0",
+    "ts-node": "^5.0.1",
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2",
+    "webpack": "^4.2.0"
+  }
+}
