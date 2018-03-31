@@ -3,8 +3,7 @@ import * as dotenv from 'dotenv';
 import * as bodyParser from 'body-parser';
 
 import * as homeController from './controllers/home';
-
-import Scheduler from './scheduler';
+import job  from './../server/scheduler_js';
 
 dotenv.config();
 
@@ -17,7 +16,7 @@ app.get('/', homeController.index);
 
 app.listen(app.get('port'), () => {
   console.log(('App is running at http://localhost:%d in %s mode'),
-    app.get('port'), app.get('env'));
+  app.get('port'), app.get('env'));
   console.log('Press CTRL-C to stop\n');
 });
 
