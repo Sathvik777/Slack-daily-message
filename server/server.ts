@@ -4,6 +4,8 @@ import * as bodyParser from 'body-parser';
 
 import * as homeController from './controllers/home';
 
+import Scheduler from './scheduler';
+
 dotenv.config();
 
 const app = express();

@@ -1,5 +1,17 @@
-import * as cron from 'cron';
+import cron from 'cron';
 
-const CronJob :any = cron.CronJob;
+class Scheduler {
 
-console.log("Compiled");
+    private CronJob: any;
+  
+    constructor() {
+      this.CronJob = cron;
+    }
+     public start() {
+        this.CronJob.job('* * * * * *', function() {
+            console.log('You will see this message every second');
+        }, null, true, 'America/Los_Angeles');
+      } 
+};
+
+export = Scheduler;
