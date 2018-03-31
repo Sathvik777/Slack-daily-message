@@ -6,7 +6,7 @@
   "scripts": {
     "postinstall": "yarn build",
     "build": "tsc",
-    "run": "yarn build --colour",
+    "start": "yarn build && node ./dist/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
