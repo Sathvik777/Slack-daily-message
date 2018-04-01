@@ -46,6 +46,12 @@
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-2.0.0.tgz#5a7306e367c539b9f6543499de8dd519fac37a8b"
 
+"@types/mysql@^2.15.4":
+  version "2.15.4"
+  resolved "https://registry.yarnpkg.com/@types/mysql/-/mysql-2.15.4.tgz#3b4f62a8a9b6e44b01ee3614486a913b65e5dc2b"
+  dependencies:
+    "@types/node" "*"
+
 "@types/node-cron@^1.2.0":
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/@types/node-cron/-/node-cron-1.2.0.tgz#aefb50be6c09f7e6a1e4c074168698b526c0b543"
