@@ -1,7 +1,7 @@
 var cron = require('cron');
 
 var cronJob = cron.job("0 * * * * *", function(){
-    // perform operation e.g. GET request http.get() etc.
+    // TODO : Add DB Query
     console.info('cron job completed');
 }); 
 cronJob.start();
